@@ -63,10 +63,10 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course  //object destructuring 
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor);  //no need to do course.courseinstructor everytime you need to print it, with obj destructuring it becomes easy
 
 // {
 //     "name": "hitesh",
